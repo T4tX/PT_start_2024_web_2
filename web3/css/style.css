@@ -1,0 +1,68 @@
+body {
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+  }
+.main{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    
+}
+.main_text {
+    flex-grow: 2;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+.my_image {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container{
+    padding: 30px;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+form p {
+    margin: 10px 0;
+    text-align: center;
+}
+#mybutton {
+    background-color: aquamarine;
+    color:rgb(203, 65, 23);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #333;
+  }
